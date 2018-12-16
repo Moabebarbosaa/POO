@@ -1,3 +1,6 @@
 # POO - Programação Orientada a Objeto
 
-  - Aplicação: Controle de Estoque 
+# Aplicações: 
+  - Controle de Estoque
+  - Consecionária 
+  - Hotel
