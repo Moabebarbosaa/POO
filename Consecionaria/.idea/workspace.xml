@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="655c21dd-59d6-4be4-b4d3-ac377ef22136" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Aprendendo/src/br/com/ifpb/bbInterfaces/Classes/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aprendendo/src/br/com/ifpb/bbInterfaces/Classes/Transportavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aprendendo/src/br/com/ifpb/bbInterfaces/Classes/Tributavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aprendendo/src/br/com/ifpb/bbInterfaces/Teste/testeProduto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Batalha/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Batalha/src/br/edu/ifpb/Dominio/Atirador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Batalha/src/br/edu/ifpb/Dominio/Personagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Armazenamento/Armazenamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Armazenamento/ArmazenamentoEmArquivoBinario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Domínio/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Domínio/Concesionaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Domínio/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Domínio/RepresentacaoTextual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Domínio/Veículo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Exception/ConcesionariaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Exception/ConcesionariaRuntimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Exception/VeiculoNaoEncontradoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/GeradorID/GeradorId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/GeradorID/GeradorIdSequencial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Menu/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuAbstrato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuAdicionarCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuAdicionarMoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuListarOrdenadoPeloPreco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuListarVeiculos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuRemoverVeiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuSobre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Útil/ComparatorVeículo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicios/Questao5/src/br/com/ifpb/Classes/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicios/Questao5/src/br/com/ifpb/Main/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicios/Questao5/src/br/com/ifpb/Opções/EncomendarVeículo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roteiro de Aula/Zoologico-v3-Interfaces-Classes-Abstratas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roteiro de Aula/Zoologico-v3-Interfaces-Classes-Abstratas/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercicios/Questao5/src/br/com/ifpb/Classes/Avião.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercicios/Questao5/src/br/com/ifpb/Classes/Avião.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercicios/Questao5/src/br/com/ifpb/Classes/Bicicleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercicios/Questao5/src/br/com/ifpb/Classes/Bicicleta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercicios/Questao5/src/br/com/ifpb/Classes/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercicios/Questao5/src/br/com/ifpb/Classes/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercicios/Questao5/src/br/com/ifpb/Classes/Veículo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercicios/Questao5/src/br/com/ifpb/Main/EncomendarVeículo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercicios/Questao5/src/br/com/ifpb/Main/ExibirMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercicios/Questao5/src/br/com/ifpb/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercicios/Questao5/src/br/com/ifpb/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercicios/Questao5/src/br/com/ifpb/Main/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercicios/Questao5/src/br/com/ifpb/Main/MenuPrincipal.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1502674126">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="63" />
+          <entry key="ser" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="63" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="14" />
+          <entry key="java" value="5142" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="5142" />
+          <entry key="PLAIN_TEXT" value="14" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Armazenamento/Armazenamento.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Exception/ConcesionariaRuntimeException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Exception/VeiculoNaoEncontradoException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Armazenamento/ArmazenamentoEmArquivoBinario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuListarOrdenadoPeloPreco.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Exception/ConcesionariaException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Útil/ComparatorVeículo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuAdicionarMoto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Domínio/Concesionaria.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#removerVeiculo#0;class#Concesionaria#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Domínio/Consecionaria.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Domínio/RepresentaçãoTextual.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Domínio/RepresentacaoTextual.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Exception/ConcesionariaRuntimeException.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Exception/ConcesionariaException.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Exception/VeiculoNaoEncontrado.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Exception/VeiculoNaoEncontradoException.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Menu/Menu.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuAbstrato.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuAdicionarCarro.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuAdicionarMoto.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuRemoverVeiculo.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuSobre.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Útil/ComparatorVeículo.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuListarOrdenadoPeloPreco.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuPrincipal.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Domínio/Carro.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Domínio/Moto.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Armazenamento/Armazenamento.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Main.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Domínio/Veículo.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Domínio/Concesionaria.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/GeradorID/GeradorIdSequencial.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/GeradorID/GeradorId.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuListarVeiculos.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Armazenamento/ArmazenamentoEmArquivoBinario.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1910" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Consecionária" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Consecionária" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Consecionária" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Consecionária" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Consecionária" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Consecionária" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Consecionária" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Consecionária" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
+              <item name="Armazenamento" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Consecionária" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Consecionária" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
+              <item name="Domínio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Consecionária" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Consecionária" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
+              <item name="Exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Consecionária" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Consecionária" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
+              <item name="Menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Consecionária" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Consecionária" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
+              <item name="Útil" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543612380620" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="br.edu.ifpb.Main" />
+      <module name="Concesionaria" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="655c21dd-59d6-4be4-b4d3-ac377ef22136" name="Default Changelist" comment="" />
+      <created>1543535276751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543535276751</updated>
+      <workItem from="1543535279751" duration="18666000" />
+      <workItem from="1543586305691" duration="125000" />
+      <workItem from="1543586448318" duration="6335000" />
+      <workItem from="1543601324275" duration="9589000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34715000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18836713" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32979852" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19830328" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32979852" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18836713" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32979852" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19830328" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32979852" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Concesionaria.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuSobre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MBA.ser">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Domínio/Moto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+          <folding>
+            <element signature="method#Moto#0;class#Moto#0" />
+            <element signature="method#toString#0;class#Moto#0" />
+            <element signature="method#validarValores#0;class#Moto#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Domínio/RepresentacaoTextual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Domínio/Carro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="method#toString#0;class#Carro#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Domínio/Veículo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#equals#0;class#Veículo#0" />
+            <element signature="method#toString#0;class#Veículo#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GeradorID/GeradorId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GeradorID/GeradorIdSequencial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Menu/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuAbstrato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#MenuAbstrato#0;class#MenuAbstrato#0" />
+            <element signature="method#obterValorInteger#0;class#MenuAbstrato#0" />
+            <element signature="method#obterValorDouble#0;class#MenuAbstrato#0" />
+            <element signature="method#obterValorLong#0;class#MenuAbstrato#0" />
+            <element signature="method#obterValorBoolean#0;class#MenuAbstrato#0" />
+            <element signature="method#obterValorString#0;class#MenuAbstrato#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuPrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuListarVeiculos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuAdicionarCarro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuRemoverVeiculo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuListarOrdenadoPeloPreco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Útil/ComparatorVeículo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Menu/MenuAdicionarMoto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Exception/ConcesionariaRuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Exception/VeiculoNaoEncontradoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Exception/ConcesionariaException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Armazenamento/Armazenamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Armazenamento/ArmazenamentoEmArquivoBinario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Domínio/Concesionaria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#removerVeiculo#0;class#Concesionaria#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
